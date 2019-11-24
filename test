@@ -1,0 +1,26 @@
+
+#for ((i=0; i<14; i++));do
+#t=(
+#if1
+#if-else1
+#if-elif-else1
+#nested-if1
+#list-sum1
+#list-change1
+#list-add1
+#list-del1
+#tuple-change1
+#tuple-change2
+#tuple-method1
+#tuple-list1
+#while1
+#for1
+#)
+#num=`expr $num + 1`;
+#echo -e "${c}[第 ${num} 題]${b} ${a}輸出${t[i]}.py  以下執行結果${b}"
+#./${t[i]}.py
+#echo -e ${d}${x}${b};
+#done
+echo -e "目前題數：(${a}${num}${b})";
+
+
